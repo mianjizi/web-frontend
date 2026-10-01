@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="'Microsoft YaHei','Segoe UI',system-ui,sans-serif">
+<style>
+ :root{--ink:#1c1c22;--sub:#5d5d68;--line:#9a9aa6;--c1:#e8f1ff;--c2:#fff3dc;--c3:#e7faf0;--c4:#f6e8ff;--acc:#2f6fd0}
+ @media (prefers-color-scheme: dark){:root{--ink:#e8e8ec;--sub:#5d5d68;--line:#8f8f9c;--c1:#1e2f4d;--c2:#3d3220;--c3:#12331f;--c4:#2e2040;--acc:#8ab6ff}}
+ text{fill:var(--ink)} .s{fill:var(--sub)} .t{font-size:15px;font-weight:700} .n{font-size:12.5px} .b{font-size:13px;font-weight:700}
+ .l{stroke:var(--line);fill:none} .d{stroke:var(--line);fill:none;stroke-dasharray:5 4}
+</style>
+ <text class="b" x="60" y="34">3 列 × 3 行：网格线编号从 1 开始，轨道是线之间的区域</text>
+ <g stroke="var(--line)" fill="none">
+  <rect x="60" y="50" width="480" height="270"/>
+  <line x1="220" y1="50" x2="220" y2="320"/><line x1="380" y1="50" x2="380" y2="320"/>
+  <line x1="60" y1="140" x2="540" y2="140"/><line x1="60" y1="230" x2="540" y2="230"/>
+ </g>
+ <g font-size="13">
+  <text class="s n" x="140" y="42" text-anchor="middle">线1</text><text class="s n" x="300" y="42" text-anchor="middle">线2</text><text class="s n" x="460" y="42" text-anchor="middle">线3</text><text class="s n" x="552" y="42">线4</text>
+  <text class="s n" x="52" y="100">线1</text><text class="s n" x="52" y="190">线2</text><text class="s n" x="52" y="280">线3</text><text class="s n" x="52" y="330">线4</text>
+ </g>
+ <rect x="76" y="66" width="128" height="58" rx="4" fill="var(--c1)"/><text class="n" x="140" y="101" text-anchor="middle">1 / 1</text>
+ <rect x="236" y="66" width="128" height="58" rx="4" fill="var(--c1)"/><text class="n" x="300" y="101" text-anchor="middle">2 / 1</text>
+ <rect x="76" y="246" width="288" height="58" rx="4" fill="var(--c3)"/><text class="n" x="220" y="281" text-anchor="middle">span 2 列 / 3 行</text>
+ <rect x="396" y="66" width="128" height="58" rx="4" fill="var(--c4)"/><text class="n" x="460" y="101" text-anchor="middle">class .wide</text>
+ <text class="n s" x="60" y="350">grid-template-columns: 160px 1fr 160px —— 三个轨道：定宽、弹性（吃掉剩余）、定宽。</text>
+ <text class="n s" x="60" y="372">gap 是轨道之间的空隙，不占轨道本身；不用再算 margin。</text>
+ <text class="n s" x="60" y="394">grid-column: 1 / span 2 的意思是「从第 1 条线起跨 2 个轨道」，落到第 3 条线上——不是「跨到第 2 条线」。</text>
+ <text class="n s" x="60" y="416">区域命名法与线号法是两种写法，不要混着数格子：线号数线，区域写名字。</text>
+</svg>

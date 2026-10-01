@@ -1,0 +1,170 @@
+{
+ "00-课程大纲.md": {
+  "lines": 235,
+  "md_links": 0,
+  "bare_urls": 0,
+  "wikilinks": 42,
+  "cr": 0,
+  "sha": "ce674e48d789"
+ },
+ "01-教案 M1 Web 的起源与技术基础.md": {
+  "lines": 327,
+  "md_links": 0,
+  "bare_urls": 13,
+  "wikilinks": 7,
+  "cr": 0,
+  "sha": "607dac321152"
+ },
+ "02-教案 M2 HTML 与语义化.md": {
+  "lines": 548,
+  "md_links": 0,
+  "bare_urls": 6,
+  "wikilinks": 7,
+  "cr": 0,
+  "sha": "775428041387"
+ },
+ "03-教案 M3 CSS 与布局.md": {
+  "lines": 486,
+  "md_links": 0,
+  "bare_urls": 6,
+  "wikilinks": 12,
+  "cr": 0,
+  "sha": "d1de8e8724ee"
+ },
+ "04-教案 M4 JavaScript 语言核心.md": {
+  "lines": 551,
+  "md_links": 0,
+  "bare_urls": 9,
+  "wikilinks": 8,
+  "cr": 0,
+  "sha": "ac1f0a85a66c"
+ },
+ "05-教案 M5 浏览器原理与运行时.md": {
+  "lines": 589,
+  "md_links": 0,
+  "bare_urls": 6,
+  "wikilinks": 9,
+  "cr": 0,
+  "sha": "38da8b197599"
+ },
+ "06-教案 M6 前端工程化.md": {
+  "lines": 593,
+  "md_links": 0,
+  "bare_urls": 9,
+  "wikilinks": 6,
+  "cr": 0,
+  "sha": "d10132e5fa2f"
+ },
+ "07-教案 M7 组件化与框架.md": {
+  "lines": 639,
+  "md_links": 0,
+  "bare_urls": 13,
+  "wikilinks": 13,
+  "cr": 0,
+  "sha": "e897d3367635"
+ },
+ "08-教案 M8 网络与数据.md": {
+  "lines": 578,
+  "md_links": 6,
+  "bare_urls": 0,
+  "wikilinks": 11,
+  "cr": 0,
+  "sha": "229e35ff73f7"
+ },
+ "09-教案 M9 性能可访问性测试与部署.md": {
+  "lines": 508,
+  "md_links": 0,
+  "bare_urls": 7,
+  "wikilinks": 9,
+  "cr": 0,
+  "sha": "377564024a32"
+ },
+ "10-教案 M10 现代前端与前沿.md": {
+  "lines": 518,
+  "md_links": 0,
+  "bare_urls": 7,
+  "wikilinks": 5,
+  "cr": 0,
+  "sha": "7bb5dc98635a"
+ },
+ "11-习题集 M1-M5.md": {
+  "lines": 904,
+  "md_links": 0,
+  "bare_urls": 20,
+  "wikilinks": 17,
+  "cr": 0,
+  "sha": "9e01ce4e3fa5"
+ },
+ "12-习题集 M6-M10.md": {
+  "lines": 1006,
+  "md_links": 0,
+  "bare_urls": 22,
+  "wikilinks": 20,
+  "cr": 0,
+  "sha": "3bda0b9dacd0"
+ },
+ "13-考核方案与评分量规.md": {
+  "lines": 321,
+  "md_links": 6,
+  "bare_urls": 0,
+  "wikilinks": 17,
+  "cr": 0,
+  "sha": "a326d8dd590e"
+ },
+ "14-期末样卷与参考答案要点.md": {
+  "lines": 561,
+  "md_links": 0,
+  "bare_urls": 7,
+  "wikilinks": 25,
+  "cr": 0,
+  "sha": "a9f2aeb3c152"
+ },
+ "15-实验与大作业指导.md": {
+  "lines": 750,
+  "md_links": 0,
+  "bare_urls": 25,
+  "wikilinks": 24,
+  "cr": 0,
+  "sha": "417bea3b0a87"
+ },
+ "16-技术演进时间线.md": {
+  "lines": 128,
+  "md_links": 0,
+  "bare_urls": 18,
+  "wikilinks": 2,
+  "cr": 0,
+  "sha": "15609a34e049"
+ },
+ "17-教学日历与开场钩子.md": {
+  "lines": 67,
+  "md_links": 0,
+  "bare_urls": 0,
+  "wikilinks": 10,
+  "cr": 0,
+  "sha": "0d47459e0194"
+ },
+ "18-教案补充 教学准备·板书设计·课程思政.md": {
+  "lines": 532,
+  "md_links": 0,
+  "bare_urls": 59,
+  "wikilinks": 19,
+  "cr": 0,
+  "sha": "7a82092b5f75"
+ },
+ "19-加练题库与答案要点.md": {
+  "lines": 624,
+  "md_links": 0,
+  "bare_urls": 0,
+  "wikilinks": 8,
+  "cr": 0,
+  "sha": "dd685302b3b4"
+ },
+ "21-操作与资料速查（全可点）.md": {
+  "lines": 279,
+  "md_links": 1,
+  "bare_urls": 56,
+  "wikilinks": 112,
+  "cr": 0,
+  "sha": "4fc84fa136d6"
+ }
+}

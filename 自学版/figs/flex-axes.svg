@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="'Microsoft YaHei','Segoe UI',system-ui,sans-serif">
+<style>
+ :root{--ink:#1c1c22;--sub:#5d5d68;--line:#9a9aa6;--c1:#e8f1ff;--c2:#fff3dc;--c3:#e7faf0;--c4:#f6e8ff;--acc:#2f6fd0}
+ @media (prefers-color-scheme: dark){:root{--ink:#e8e8ec;--sub:#5d5d68;--line:#8f8f9c;--c1:#1e2f4d;--c2:#3d3220;--c3:#12331f;--c4:#2e2040;--acc:#8ab6ff}}
+ text{fill:var(--ink)} .s{fill:var(--sub)} .t{font-size:15px;font-weight:700} .n{font-size:12.5px} .b{font-size:13px;font-weight:700}
+ .l{stroke:var(--line);fill:none} .d{stroke:var(--line);fill:none;stroke-dasharray:5 4}
+</style>
+ <rect class="l" x="60" y="60" width="640" height="200" rx="8" fill="var(--c1)"/>
+ <text class="b" x="72" y="52">display: flex 的容器</text>
+ <rect class="l" x="96" y="100" width="150" height="80" rx="6" fill="var(--c2)"/><text class="n" x="171" y="145" text-anchor="middle">项目 1</text>
+ <rect class="l" x="256" y="100" width="150" height="80" rx="6" fill="var(--c2)"/><text class="n" x="331" y="145" text-anchor="middle">项目 2</text>
+ <rect class="l" x="416" y="100" width="150" height="80" rx="6" fill="var(--c2)"/><text class="n" x="491" y="145" text-anchor="middle">项目 3</text>
+ <line class="l" x1="96" y1="292" x2="566" y2="292" marker-end="url(#a)"/><text class="b" x="331" y="312" text-anchor="middle">主轴 main axis → justify-content 管这根轴上的排列与空隙</text>
+ <line class="l" x1="620" y1="100" x2="620" y2="180" marker-end="url(#a)"/><text class="b" x="632" y="145">交叉轴<br/>align-items</text>
+ <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="var(--acc)"/></marker></defs>
+ <text class="n s" x="60" y="356">主轴方向由 flex-direction 决定：row（默认，左→右）／ column（上→下）。</text>
+ <text class="n s" x="60" y="378">一旦改成 column，两根轴互换——justify-content 变成管竖直方向，align-items 变成管水平方向。</text>
+ <text class="n s" x="60" y="400">flex: 1 是 flex-grow:1 flex-shrink:1 flex-basis:0% 的简写：先按 0 起算，再把剩余空间按 grow 比例分。</text>
+ <text class="n s" x="60" y="422">所以「三个 flex:1 的盒子等宽」不是平均分配，而是剩余空间等分后得到的等宽。</text>
+</svg>

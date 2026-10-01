@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="'Microsoft YaHei','Segoe UI',system-ui,sans-serif">
+<style>
+ :root{--ink:#1c1c22;--sub:#5d5d68;--line:#9a9aa6;--c1:#e8f1ff;--c2:#fff3dc;--c3:#e7faf0;--c4:#f6e8ff;--acc:#2f6fd0}
+ @media (prefers-color-scheme: dark){:root{--ink:#e8e8ec;--sub:#5d5d68;--line:#8f8f9c;--c1:#1e2f4d;--c2:#3d3220;--c3:#12331f;--c4:#2e2040;--acc:#8ab6ff}}
+ text{fill:var(--ink)} .s{fill:var(--sub)} .t{font-size:15px;font-weight:700} .n{font-size:12.5px} .b{font-size:13px;font-weight:700}
+ .l{stroke:var(--line);fill:none} .d{stroke:var(--line);fill:none;stroke-dasharray:5 4}
+</style>
+ <text class="b" x="60" y="34">层叠上下文：两个各自成「一层」的父元素，子元素的 z-index 只在所属层里比大小</text>
+ <rect class="l" x="70" y="60" width="300" height="210" rx="8" fill="var(--c1)"/>
+ <text class="b" x="82" y="84">卡片 A（z-index: 1 → 形成层叠上下文）</text>
+ <rect class="l" x="100" y="104" width="240" height="90" rx="6" fill="var(--c3)"/>
+ <text class="n" x="112" y="132">内部元素 z-index: 1</text>
+ <text class="n" x="112" y="156">它只能在 A 这一层里跟兄弟比</text>
+ <rect class="l" x="330" y="150" width="300" height="210" rx="8" fill="var(--c2)"/>
+ <text class="b" x="342" y="174">卡片 B（z-index: 2，排在 A 上面）</text>
+ <rect class="l" x="360" y="196" width="240" height="90" rx="6" fill="var(--c3)"/>
+ <text class="n" x="372" y="224">内部元素 z-index: 999</text>
+ <text class="n" x="372" y="248">照样压在 B 里面，翻不出去</text>
+ <text class="n s" x="60" y="400">为什么：z-index 不是全局数值比较，先比父级所在层叠上下文的先后，再在层内比 z-index。</text>
+ <text class="n s" x="60" y="422">形成层叠上下文的常见条件：z-index 非 auto 且 position 非 static、opacity 小于 1、transform/filter 非 none。</text>
+</svg>

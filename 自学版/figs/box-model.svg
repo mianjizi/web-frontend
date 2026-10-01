@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 448" font-family="'Microsoft YaHei','Segoe UI',system-ui,sans-serif">
+<style>
+ :root{--ink:#1c1c22;--sub:#5d5d68;--line:#9a9aa6;--c1:#e8f1ff;--c2:#fff3dc;--c3:#e7faf0;--c4:#f6e8ff;--acc:#2f6fd0}
+ @media (prefers-color-scheme: dark){:root{--ink:#e8e8ec;--sub:#5d5d68;--line:#8f8f9c;--c1:#1e2f4d;--c2:#3d3220;--c3:#12331f;--c4:#2e2040;--acc:#8ab6ff}}
+ text{fill:var(--ink)} .s{fill:var(--sub)} .t{font-size:15px;font-weight:700} .n{font-size:12.5px} .b{font-size:13px;font-weight:700}
+ .l{stroke:var(--line);fill:none} .d{stroke:var(--line);fill:none;stroke-dasharray:5 4}
+</style>
+ <rect class="d" x="40" y="34" width="680" height="300" rx="8"/>
+ <text class="b s" x="52" y="26">margin（外边距）—— 盒子之外，盒子之间</text>
+ <rect class="l" x="110" y="70" width="540" height="228" rx="6" fill="var(--c2)"/>
+ <text class="b" x="122" y="62">border（边框）· 2px solid #333</text>
+ <rect class="l" x="160" y="106" width="440" height="156" rx="6" fill="var(--c3)"/>
+ <text class="b" x="172" y="98">padding（内边距）· 16px</text>
+ <rect class="l" x="220" y="152" width="320" height="64" rx="6" fill="var(--c1)"/>
+ <text class="t" x="380" y="182" text-anchor="middle">content（内容区）</text>
+ <text class="n s" x="380" y="202" text-anchor="middle">width × height 默认指的是这一块</text>
+ <line class="l" x1="220" y1="240" x2="540" y2="240"/><line class="l" x1="220" y1="234" x2="220" y2="246"/><line class="l" x1="540" y1="234" x2="540" y2="246"/>
+ <text class="n s" x="380" y="258" text-anchor="middle">width: 320px</text>
+ <line class="l" x1="660" y1="106" x2="660" y2="262"/><line class="l" x1="654" y1="106" x2="666" y2="106"/><line class="l" x1="654" y1="262" x2="666" y2="262"/>
+ <text class="n s" x="668" y="178">border-box</text><text class="n s" x="668" y="194">高度</text>
+ <text class="b" x="40" y="368">box-sizing 的两种口径</text>
+ <text class="n" x="40" y="392">· 默认 content-box：width 只算 content，加 padding/border 后实际占位变宽（320 + 32 + 4 = 356px）</text>
+ <text class="n" x="40" y="412">· border-box：width 算到 border 外沿，padding/border 从里面扣（布局尺寸更好预测，现代项目常全局设置）</text>
+ <text class="n s" x="40" y="430">示意图：四层间距为看清而放大，不是实际像素比例；图中 320 / 356px 是真实 CSS 数值。</text>
+</svg>
